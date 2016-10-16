@@ -14,27 +14,45 @@
   margin: 0;
 }
 
-.nav ul li{
+.nav ul li span {
   list-style: none;
   text-align: center;
+  display: inline-block;
+  vertical-align: middle;
 }
 
+li:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.nav li:hover {
+  background-color: #5b892a;
+  text-color: #ffffff;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .nav {
-    right: 0;
-    bottom: 0;
-    height: 120px;
+    width: 100%;
     max-width: 100%;
+    height: auto;
     overflow: hidden;
   }
 
-  .nav ul li {
-    display: inline-block;
-  }
-  
-  .nav li {
-    width: 25%;
+  li {
+    height: 60px;
+    color: white;
     text-align: center;
   }
+  
+  ul li{
+    vertical-align: middle;
+  }
+
+  .home {
+    color: white;
+  }
+  
+
 }
