@@ -1,21 +1,25 @@
 <head>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <title>PDXCan</title>
 </head>
 
 <body>
 </body>
 <template name="home">
-  {{> banner}}
+  {{> menu}}
   <div class="container">
-    {{> nav}}
-    <div class="mainContent">
-    <p>Our goals:</p>
-    <ul>
-      <li>Make PDX green</li>
-      <li>Provide shelter for PDX campers</li>
-    </ul>
-    </div>
+    {{> maincontent}}
   </div>
+</template>
+
+<template name="maincontent">
+    <section class="banner">
+      <p>Our goals:</p>
+      <ul>
+        <li>Make PDX green</li>
+        <li><a href="#">Provide shelter for PDX campers</a></li>
+      </ul>
+    </section>
 </template>
 
 <template name="signIn">
