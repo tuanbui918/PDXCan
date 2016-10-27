@@ -11,13 +11,10 @@ if (Meteor.isClient){
       var state = target.inputState.value;
       var zipCode= target.inputZipCode.value;
 
-      $('#submitBtn').prop('disable', true).addClass('disabled');
-      mapSearchAddress(address + city + state + zipCode);
+      //$('#submitBtn').prop('disable', true).addClass('disabled');
+
+      $('.map-container').css('visibility', 'visible');
     } 
   });
-  
 }
 
-function mapSearchAddress(address){
-  return false;
-}

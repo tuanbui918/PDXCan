@@ -1,3 +1,13 @@
 .form-group {
    margin-left: 90px;
 }
+
+.map-container {
+  width: 80%;
+  max-width: 80%;
+  height: 256px;
+  visibility: hidden;
+  border: solid 6px gray;
+  border-style: double;
+  margin: 0 auto;
+}

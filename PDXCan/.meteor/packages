@@ -25,3 +25,4 @@ accounts-ui
 twbs:bootstrap
 iron:router
 session
+dburles:google-maps

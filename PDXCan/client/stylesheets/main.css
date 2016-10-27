@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #def9ae;
+  background-color: #deffdb;
 }
 
 header {
@@ -11,10 +11,11 @@ header {
 }
 
 .mainContent {
+  padding-top: 50px;
 }
 
 .banner {
-  background-color: #5b892a;
+  background-color: #97d36b;
   text-color: white;
   height: 59px;
 }
@@ -29,6 +30,9 @@ h1 {
   color: white;
 }
 
+.container {
+  width: 80%;
+}
 
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
@@ -42,5 +46,7 @@ h1 {
   section {
     float: bottom;
   }
-
+  .container {
+    width: 100%;
+  }
 }
